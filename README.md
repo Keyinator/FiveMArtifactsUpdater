@@ -18,6 +18,6 @@ cronjobupdate.sh:
 2. Close txAdmin & screen  (when screen name is not txAdmin)
 3. bash cronjobupdate.sh
 4. Run update automatically: 
-5. crontab -l | { cat; echo "30_4_*_*_0 /bin/bash "path/to/server/cronjobupdate.sh""; } | crontab -
+5. ```crontab -l | { cat; echo "30_4_*_*_0 /bin/bash "path/to/server/cronjobupdate.sh""; } | crontab -```
 6. (optional) enable log in cronjobupdate.sh
 7. Every Sunday 4.30am update starts automatically
