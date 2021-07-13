@@ -1,7 +1,7 @@
 #!/bin/bash
 #automatically
 #https://crontab.guru/#30_4_*_*_0
-#crontab -l | { cat; echo "30_4_*_*_0 /bin/bash -c "path/to/server/cronjobupdate.sh""; } | crontab -
+#crontab -l | { cat; echo "30_4_*_*_0 /bin/bash "path/to/server/cronjobupdate.sh""; } | crontab -
 #
 #enable next 3 lines when you use cron, to write a log file
 #exec 3>&1 4>&2
