@@ -3,7 +3,7 @@
 #Linux only
 
 1. Copy update.sh to your server where alpine and run.sh is located
-2. Close txAdmin & screen
+2. Close txAdmin & screen  (when screen name is not txAdmin)
 3. bash update.sh
 4. follow instruction
 
