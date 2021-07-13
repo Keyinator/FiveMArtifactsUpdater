@@ -1,4 +1,5 @@
 #!/bin/bash
+#manually
 echo "Hello, lets update your txAdmin!"
 echo
 echo "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/"
