@@ -1,4 +1,4 @@
-# FiveM TxAdmin Updater Script
+# FiveM TxAdmin Updater Script Manually and automatically
 
 #Linux only
 Update.sh:
