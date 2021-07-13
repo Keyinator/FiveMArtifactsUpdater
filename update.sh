@@ -27,6 +27,6 @@ read -p "Press Enter to confirm screen start and close after check with CTR A+D 
 echo
 echo "Starting now screen with default script screen Name: txAdmin"
 echo
-echo "All done - Happy Playing! Made with love by cfx/github zatu22"
+echo "All done - Happy Playing! Made with love by cfx zatu22"
 screen -S txAdmin bash run.sh; exec bash
 
