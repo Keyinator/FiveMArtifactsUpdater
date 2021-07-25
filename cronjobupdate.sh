@@ -26,12 +26,13 @@ echo $newversion
 echo
 echo "Starting update ..."
 echo
-echo "Try now to close txAdmin with default script screen Name: txAdmin"
+echo "Try now to close fivem with default script screen Name: txAdmin"
 screen -S txAdmin -p 0 -X quit
 echo
 curl -O "$newversion"
 echo
-mkdir -p backup && mv alpine backup/"$(date +"%d-%m-%y")"-alpine && mv run.sh backup/"$(date +"%d-%m-%y")"-run.sh
+mkdir -p backup
+mv alpine backup/"$(date +"%d-%m-%y")"-alpine && mv run.sh backup/"$(date +"%d-%m-%y")"-run.sh
 tar xf fx.tar.xz
 echo
 rm fx.tar.xz
